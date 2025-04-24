@@ -1,3 +1,6 @@
+# About this repo
+- **Raffle** lottery smart contrat build with the guide of cyfrin updarft 
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
@@ -22,7 +25,12 @@ $ forge build
 ```
 
 ### Test
-
+1. Write deploy scripts
+    1. Note, these will not work on zkSync
+2. Write tests
+    1. Local chain
+    2. Forked testnet
+    3. Forked mainnet
 ```shell
 $ forge test
 ```
